@@ -1,7 +1,17 @@
-import javax.print.event.PrintJobListener;
+import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+  
+    System.out.print("名前： ");
+  
+    // 変数nameを定義し、コンソールから文字列を受け取って代入してください
+    String name0 = scanner.next();
+  
+    // 「こんにちは◯◯さん」と出力してください
+    System.out.println("こんにちは" + name0 + "さん");
+
     System.out.println("Hello Java");
     System.out.println("こんにちは、Java");
     System.out.println(12/3);
