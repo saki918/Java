@@ -5,3 +5,4 @@ JDKのインストール java ファイル名 で実行。<br>
 メソッド、クラスについて。ファイルを更新させるたびにjavac Main.java。.classファイルが作られてから、java Mainで実行。
 javac Main.java && java Main で一度に実行まで行える。<br>
 オブジェクト指向 インスタンスメソッド、インスタンスフィールド、コンストラクタ、クラスメソッド、クラスフィールド、ゲッター、セッター、カプセル化<br>
+コンパイル javac フォルダ/Main.java 呼び出し java フォルダ/Main
